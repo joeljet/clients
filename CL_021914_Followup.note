@@ -1,0 +1,18 @@
+Gentlemen,
+
+It was great to talk to you all today. We covered a lot so I just wanted to make sure that you have some record to refer to when you need it.
+
+Here's what we did:
+Discussed the problem. This is a critical first step - it determines the procedure.
+Moved into RP GUI. We then decided an acceptable point of recovery (bookmark).
+Enabled Image Access via the Consistency Group pull-down menu. 
+Moved into the Unisphere GUI. Verified replica volume presented to VMware storage group.
+Moved into vSphere. Performed a rescan of HBA. Verified the UID of replica LUN.
+Added the replica LUN as an RDM to a VM via "Edit Settings".
+From the host, use Windows Disk Manager to "online" the drive.
+To return to our prior state, we backed everything out in reverse order and then disabled Image Access.
+
+Please give me a call or drop me an email whenever you need it. Let's get that lunch early next month, say Monday, March 3rd? Let's start the week off right =)
+
+Regards,
+Joel
